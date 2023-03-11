@@ -15,7 +15,7 @@ const Navbar = () => {
     <header className={styles.navbar}>
       <img src={Logo} alt="drive logo" />
       <nav>
-        <ul className={styles.menu}>
+        <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
           <li>
             <a href="/">Learn More</a>
           </li>
@@ -33,8 +33,8 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <div className={styles.mobile_btn}>
-        <AiOutlineMenu size={25} />
+      <div onClick={()=> setNav(!nav)} className={styles.mobile_btn}>
+        {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
       </div>
     </header>
   );

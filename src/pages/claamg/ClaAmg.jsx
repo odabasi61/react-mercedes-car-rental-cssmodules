@@ -1,22 +1,22 @@
 import Date from "../../components/date/Date";
-import styles from "./AmgGt.module.css";
-import amg from "../../images/sport1.jpg";
 import Info from "../../components/info/Info";
+import styles from "./ClaAmg.module.css";
+import cla from "../../images/sport3.jpg";
 
-const AmgGt = () => {
+const ClaAmg = () => {
   return (
     <div>
       <Date />
       <div className={styles.rentcard}>
         <div className={styles.image}>
-          <img src={amg} alt="amg gt 63 s" />
+          <img src={cla} alt="amg gt 63 s" />
         </div>
         <div className={styles.info}>
-          <Info name="AMG GT63 S" />
+          <Info name="CLA AMG" />
         </div>
       </div>
     </div>
   );
 };
 
-export default AmgGt;
+export default ClaAmg;

@@ -1,0 +1,53 @@
+.container {
+  padding: 1rem;
+}
+
+.container p {
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+
+.specs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.tag {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+
+.tag span {
+  padding: 0.5rem;
+  background-color: green;
+  color: #fff;
+  border-radius: 1rem;
+}
+.container button {
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: green;
+  padding: 0.5rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  .specs {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .specs {
+    width: 100%;
+  }
+
+  .tag {
+    gap: 0.5rem;
+  }
+}

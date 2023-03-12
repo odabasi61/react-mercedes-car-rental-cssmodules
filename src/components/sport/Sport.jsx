@@ -24,24 +24,24 @@ const Sport = () => {
             <h3>AMG GT63 S</h3>
           </div>
         </Link>
-        <div className={styles.card}>
+        <Link to={"slsamg"} className={styles.card}>
           <img src={sport2} alt="SLS AMG" />
           <div className={styles.content}>
             <h3>SLS AMG</h3>
           </div>
-        </div>
-        <div className={styles.card}>
+        </Link>
+        <Link to={"claamg"} className={styles.card}>
           <img src={sport3} alt="CLA AMG" />
           <div className={styles.content}>
             <h3>CLA AMG</h3>
           </div>
-        </div>
-        <div className={styles.card}>
+        </Link>
+        <Link to={"cclasscoupe"} className={styles.card}>
           <img src={sport4} alt="C Class Coupé" />
           <div className={styles.content}>
             <h3>C Class Coupé</h3>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

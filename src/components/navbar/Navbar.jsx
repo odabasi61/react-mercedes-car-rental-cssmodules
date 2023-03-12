@@ -7,6 +7,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import Logo from "../../images/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,9 +16,16 @@ const Navbar = () => {
     <header className={styles.navbar}>
       <img src={Logo} alt="drive logo" />
       <nav>
-        <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
+        <ul
+          className={
+            nav ? [styles.menu, styles.active].join(" ") : [styles.menu]
+          }
+        >
           <li>
-            <a href="/">Learn More</a>
+            <Link to={"/"}>Home</Link>
+          </li>
+          <li>
+            <Link to={"learnmore"}>Learn More</Link>
           </li>
           <li>
             <a href="/">Log in</a>
@@ -33,7 +41,7 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <div onClick={()=> setNav(!nav)} className={styles.mobile_btn}>
+      <div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
       </div>
     </header>

@@ -1,0 +1,94 @@
+.container {
+  padding: 4rem 2rem;
+}
+
+.card {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 7px;
+  background-color: rgb(77, 77, 77);
+}
+
+.reservation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(204, 204, 204);
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  background-color: green;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: all.4s ease;
+}
+
+.btn:hover {
+  color: green;
+  background-color: #fff;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.from,
+.to,
+.pickdate,
+.submitdate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-left: 3px solid green;
+  padding-left: 0.5rem;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .reservation {
+    flex-direction: column;
+  }
+
+  .from,
+  .to,
+  .pickdate,
+  .submitdate {
+    border: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .left,
+  .right {
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

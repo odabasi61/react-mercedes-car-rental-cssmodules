@@ -1,0 +1,50 @@
+.learn {
+  padding: 2rem;
+}
+
+.about,
+.fleet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 4rem;
+  background-color: rgb(255, 255, 255, 0.3);
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.learn img {
+  width: 500px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .learn img {
+    width: 300px;
+  }
+
+  .learn p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .fleet {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .learn img {
+    width: 250px;
+  }
+
+  .about,
+  .fleet {
+    padding: 1rem;
+  }
+}

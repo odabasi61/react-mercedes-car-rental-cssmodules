@@ -74,7 +74,6 @@ const Find = () => {
           <SwiperSlide>
             <Card image={find5} make="Vision 6" />
           </SwiperSlide>
-
           <SwiperSlide>
             <Card image={find6} make="C Class" />
           </SwiperSlide>

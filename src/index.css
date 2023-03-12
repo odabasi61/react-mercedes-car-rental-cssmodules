@@ -20,9 +20,9 @@ body {
   line-height: 1.3;
   font-family: "Poppins", sans-serif;
   background: linear-gradient(
-    190deg,
-    rgba(122, 145, 138, 1) 15%,
+    90deg,
+    rgba(93, 126, 122, 1) 15%,
     rgba(246, 246, 246, 1) 50%,
-    rgba(81, 117, 117, 1) 85%
+    rgba(93, 126, 122, 1) 85%
   );
 }

@@ -1,16 +1,11 @@
-.find {
+.quote {
   max-width: 1200px;
   margin: auto;
 }
 
-.heading h1 {
-  font-size: 4rem;
+.heading h2 {
   text-align: center;
-  padding: 2rem;
-}
-
-.heading p {
-  text-align: center;
+  padding: 0 1rem;
 }
 
 .text_bg {
@@ -25,34 +20,31 @@
   right: 0;
 }
 
-.text_bg p {
-  padding: 0 1rem;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-
 .slider_container {
   padding: 5rem 0;
 }
 
 .card {
-  margin: 0.5rem;
+  padding: 0.5rem;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.card img {
-  width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  height: 220px;
-  object-fit: cover;
-}
-
-.card p {
+  background-color: rgb(255, 255, 255, 0.6);
   text-align: center;
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h5,
+.card p {
   padding: 0.5rem;
   font-size: 1rem;
+}
+
+.star {
+  color: yellow;
 }
 
 @media screen and (max-width: 500px) {

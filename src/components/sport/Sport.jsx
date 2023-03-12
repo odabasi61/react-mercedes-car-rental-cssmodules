@@ -3,10 +3,11 @@ import sport1 from "../../images/sport1.jpg";
 import sport2 from "../../images/sport2.jpg";
 import sport3 from "../../images/sport3.jpg";
 import sport4 from "../../images/sport4.jpg";
+import { Link } from "react-router-dom";
 
 const Sport = () => {
   return (
-    <div className={styles.luxury}>
+    <div className={styles.sport}>
       <div className={styles.heading}>
         <h1>Sport Selection</h1>
         <div className={styles.text_bg}>
@@ -17,12 +18,12 @@ const Sport = () => {
       </div>
 
       <div className={styles.container}>
-        <div className={styles.card}>
+        <Link to={"amggt63s"} className={styles.card}>
           <img src={sport1} alt="AMG GT63 S" />
           <div className={styles.content}>
             <h3>AMG GT63 S</h3>
           </div>
-        </div>
+        </Link>
         <div className={styles.card}>
           <img src={sport2} alt="SLS AMG" />
           <div className={styles.content}>

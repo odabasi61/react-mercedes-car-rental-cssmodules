@@ -6,7 +6,7 @@ import suv4 from "../../images/suv4.jpg";
 
 const Suv = () => {
   return (
-    <div className={styles.luxury}>
+    <div className={styles.suv}>
       <div className={styles.heading}>
         <h1>SUV Selection</h1>
         <div className={styles.text_bg}>

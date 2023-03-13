@@ -8,7 +8,7 @@ import {
 import { BsFillFuelPumpFill, BsMap, BsPinMap } from "react-icons/bs";
 import { MdPolicy, MdOutlineAttachEmail } from "react-icons/md";
 
-const Info = ({ name }) => {
+const Info = ({ name, price, seat }) => {
   return (
     <div className={styles.container}>
       <p>{name}</p>
@@ -16,7 +16,7 @@ const Info = ({ name }) => {
         <div>
           <div>
             <GiCarSeat />
-            <span> 5 Seats</span>
+            <span> {seat}</span>
           </div>
           <div>
             <GiBeachBag />
@@ -96,6 +96,11 @@ const Info = ({ name }) => {
           <MdOutlineAttachEmail />
           <button>Mail Us</button>
         </div>
+      </div>
+      <div>
+        <p style={{ padding: "1rem 0" }}>
+          <strong>Price:</strong> <span>{price}</span>
+        </p>
       </div>
     </div>
   );

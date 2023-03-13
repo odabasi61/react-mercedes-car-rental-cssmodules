@@ -11,7 +11,7 @@ const Quote = () => {
     <div className={styles.quote}>
       <div className={styles.heading}>
         <div className={styles.text_bg}>
-          <h2>Customer quotes about us</h2>
+          <h2>Customer Reviews</h2>
         </div>
       </div>
       <div className={styles.slider_container}>

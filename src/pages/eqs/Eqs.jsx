@@ -1,22 +1,22 @@
 import Date from "../../components/date/Date";
 import Info from "../../components/info/Info";
-import styles from "./CclassCoupe.module.css";
-import cClass from "../../images/sport4.jpg";
+import styles from "./Eqs.module.css";
+import eqs from "../../images/suv2.jpg";
 
-const CclassCoupe = () => {
+const Eqs = () => {
   return (
     <div>
       <Date />
       <div className={styles.rentcard}>
         <div className={styles.image}>
-          <img src={cClass} alt="amg gt 63 s" />
+          <img src={eqs} alt="amg gt 63 s" />
         </div>
         <div className={styles.info}>
-          <Info name="C Class Coupé" price="$1199" seat="2 Seats" />
+          <Info name="EQS Suv" price="$1199" seat="7 Seats" />
         </div>
       </div>
     </div>
   );
 };
 
-export default CclassCoupe;
+export default Eqs;

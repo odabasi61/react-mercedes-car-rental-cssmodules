@@ -12,7 +12,7 @@ const SlsAmg = () => {
           <img src={sls} alt="amg gt 63 s" />
         </div>
         <div className={styles.info}>
-          <Info name="SLS AMG" />
+          <Info name="SLS AMG" price="$1499" seat="2 Seats" />
         </div>
       </div>
     </div>

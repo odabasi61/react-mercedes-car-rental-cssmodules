@@ -15,6 +15,11 @@ import Vision from "../pages/vision/Vision";
 import Hofele from "../pages/hofele/Hofele";
 import Maybach from "../pages/maybach/Maybach";
 import Sclass from "../pages/sclass/Sclass";
+import Office from "../pages/office/Office";
+import Berlin from "../pages/berlin/Berlin";
+import Zurich from "../pages/zurich/Zurich";
+import Paris from "../pages/paris/Paris";
+import Sofia from "../pages/sofia/Sofia";
 
 const AppRouter = () => {
   return (
@@ -24,6 +29,11 @@ const AppRouter = () => {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="learnmore" element={<LearnMore />} />
+          <Route path="office" element={<Office />} />
+          <Route path="office/berlin" element={<Berlin />} />
+          <Route path="office/zurich" element={<Zurich />} />
+          <Route path="office/paris" element={<Paris />} />
+          <Route path="office/sofia" element={<Sofia />} />
           <Route path="amggt63s" element={<AmgGt />} />
           <Route path="slsamg" element={<SlsAmg />} />
           <Route path="claamg" element={<ClaAmg />} />

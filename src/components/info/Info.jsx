@@ -62,7 +62,7 @@ const Info = ({ name, price, seat }) => {
             display: "flex",
             alignItems: "center",
             gap: ".5rem",
-            backgroundColor: "lightgreen",
+            backgroundColor: "lightgray",
             padding: ".5rem 1rem",
             borderRadius: "2rem",
           }}
@@ -75,7 +75,7 @@ const Info = ({ name, price, seat }) => {
             display: "flex",
             alignItems: "center",
             gap: ".5rem",
-            backgroundColor: "lightgreen",
+            backgroundColor: "lightgray",
             padding: ".5rem 1rem",
             borderRadius: "2rem",
           }}
@@ -88,7 +88,7 @@ const Info = ({ name, price, seat }) => {
             display: "flex",
             alignItems: "center",
             gap: ".5rem",
-            backgroundColor: "lightgreen",
+            backgroundColor: "lightgray",
             padding: ".5rem 1rem",
             borderRadius: "2rem",
           }}

@@ -1,0 +1,69 @@
+.container {
+  padding: 4rem;
+}
+
+.container h2 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.contact {
+  background-color: rgb(255, 255, 255, 0.4);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.address,
+.phone,
+.work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 0.5rem;
+  border-bottom: 1px solid gray;
+}
+
+.image {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.image img {
+  width: 100%;
+  max-height: 500px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .address,
+  .phone,
+  .work {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .image {
+    width: 80vw;
+  }
+
+  .container h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .image {
+    width: 70vw;
+  }
+
+  .container h2 {
+    font-size: 1.7rem;
+  }
+
+  .container {
+    padding: 4rem 1rem;
+  }
+}

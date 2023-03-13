@@ -23,8 +23,8 @@
 
 .tag span {
   padding: 0.5rem;
-  background-color: green;
-  color: #fff;
+  background-color: #ced4da;
+  color: #495057;
   border-radius: 1rem;
 }
 .container button {
@@ -32,7 +32,7 @@
   border: none;
   border-radius: 1rem;
   color: #fff;
-  background-color: green;
+  background-color: #868e96;
   padding: 0.5rem;
 }
 

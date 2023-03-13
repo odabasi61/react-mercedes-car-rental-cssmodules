@@ -20,6 +20,11 @@ import Berlin from "../pages/berlin/Berlin";
 import Zurich from "../pages/zurich/Zurich";
 import Paris from "../pages/paris/Paris";
 import Sofia from "../pages/sofia/Sofia";
+import Madrid from "../pages/madrid/Madrid";
+import Istanbul from "../pages/istanbul/Istanbul";
+import Vienna from "../pages/vienna/Vienna";
+import Budapest from "../pages/budapest/Budapest";
+import Oslo from "../pages/oslo/Oslo";
 
 const AppRouter = () => {
   return (
@@ -34,6 +39,11 @@ const AppRouter = () => {
           <Route path="office/zurich" element={<Zurich />} />
           <Route path="office/paris" element={<Paris />} />
           <Route path="office/sofia" element={<Sofia />} />
+          <Route path="office/madrid" element={<Madrid />} />
+          <Route path="office/istanbul" element={<Istanbul />} />
+          <Route path="office/vienna" element={<Vienna />} />
+          <Route path="office/budapest" element={<Budapest />} />
+          <Route path="office/oslo" element={<Oslo />} />
           <Route path="amggt63s" element={<AmgGt />} />
           <Route path="slsamg" element={<SlsAmg />} />
           <Route path="claamg" element={<ClaAmg />} />

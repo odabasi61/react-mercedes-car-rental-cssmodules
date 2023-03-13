@@ -4,6 +4,11 @@ import zurich from "../../images/zurich.jpg";
 import paris from "../../images/paris.jpg";
 import berlin from "../../images/berlin.jpg";
 import sofia from "../../images/sofia.jpg";
+import madrid from "../../images/madrid.jpg";
+import istanbul from "../../images/istanbul.jpg";
+import vienna from "../../images/vienna.jpg";
+import budapest from "../../images/budapest.jpg";
+import oslo from "../../images/oslo.jpg";
 import { GiAirplaneDeparture } from "react-icons/gi";
 import { HiInformationCircle } from "react-icons/hi";
 import { FaCity } from "react-icons/fa";
@@ -22,6 +27,38 @@ const Office = () => {
             info={<HiInformationCircle />}
           />
         </Link>
+        <Link to={"budapest"}>
+          <Card
+            img={budapest}
+            city="Budapest"
+            icon={<FaCity />}
+            info={<HiInformationCircle />}
+          />
+        </Link>
+        <Link to={"istanbul"}>
+          <Card
+            img={istanbul}
+            city="İstanbul"
+            icon={<FaCity />}
+            info={<HiInformationCircle />}
+          />
+        </Link>
+        <Link to={"madrid"}>
+          <Card
+            img={madrid}
+            city="Madrid"
+            icon={<GiAirplaneDeparture />}
+            info={<HiInformationCircle />}
+          />
+        </Link>
+        <Link to={"oslo"}>
+          <Card
+            img={oslo}
+            city="Oslo"
+            icon={<GiAirplaneDeparture />}
+            info={<HiInformationCircle />}
+          />
+        </Link>
         <Link to={"paris"}>
           <Card
             img={paris}
@@ -35,6 +72,14 @@ const Office = () => {
             img={sofia}
             city="Sofia"
             icon={<GiAirplaneDeparture />}
+            info={<HiInformationCircle />}
+          />
+        </Link>
+        <Link to={"vienna"}>
+          <Card
+            img={vienna}
+            city="Vienna"
+            icon={<FaCity />}
             info={<HiInformationCircle />}
           />
         </Link>

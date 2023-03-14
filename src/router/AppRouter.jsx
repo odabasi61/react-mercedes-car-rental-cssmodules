@@ -25,6 +25,9 @@ import Istanbul from "../pages/istanbul/Istanbul";
 import Vienna from "../pages/vienna/Vienna";
 import Budapest from "../pages/budapest/Budapest";
 import Oslo from "../pages/oslo/Oslo";
+import Stockholm from "../pages/stockholm/Stockholm";
+import Amsterdam from "../pages/amsterdam/Amsterdam";
+import Rome from "../pages/rome/Rome";
 
 const AppRouter = () => {
   return (
@@ -44,6 +47,9 @@ const AppRouter = () => {
           <Route path="office/vienna" element={<Vienna />} />
           <Route path="office/budapest" element={<Budapest />} />
           <Route path="office/oslo" element={<Oslo />} />
+          <Route path="office/stockholm" element={<Stockholm />} />
+          <Route path="office/amsterdam" element={<Amsterdam />} />
+          <Route path="office/rome" element={<Rome />} />
           <Route path="amggt63s" element={<AmgGt />} />
           <Route path="slsamg" element={<SlsAmg />} />
           <Route path="claamg" element={<ClaAmg />} />

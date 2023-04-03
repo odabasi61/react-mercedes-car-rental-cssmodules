@@ -12,7 +12,13 @@ const Gle = () => {
           <img src={gle} alt="amg gt 63 s" />
         </div>
         <div className={styles.info}>
-          <Info name="GLE Coupé" price="$999" seat="5 Seats" />
+          <Info
+            name="GLE Coupé"
+            price="$999"
+            seat="5 Seats"
+            fuel="8 lt/100 km"
+            speed="4.6 sec/100km"
+          />
         </div>
       </div>
     </div>

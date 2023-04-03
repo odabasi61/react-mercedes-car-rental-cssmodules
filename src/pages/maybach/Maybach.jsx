@@ -12,7 +12,13 @@ const Maybach = () => {
           <img src={maybach} alt="amg gt 63 s" />
         </div>
         <div className={styles.info}>
-          <Info name="Maybach S580" price="$2499" seat="4 Seats" />
+          <Info
+            name="Maybach S580"
+            price="$2499"
+            seat="4 Seats"
+            fuel="8.5 lt/100 km"
+            speed="3.7 sec/100km"
+          />
         </div>
       </div>
     </div>

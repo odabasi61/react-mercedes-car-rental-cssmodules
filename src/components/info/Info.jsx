@@ -1,14 +1,21 @@
 import styles from "./Info.module.css";
+import { BiLeaf } from "react-icons/bi";
 import {
   GiCarSeat,
   GiBeachBag,
   GiHandBag,
   GiGearStickPattern,
+  GiJerrycan,
 } from "react-icons/gi";
-import { BsFillFuelPumpFill, BsMap, BsPinMap } from "react-icons/bs";
+import {
+  BsFillFuelPumpFill,
+  BsMap,
+  BsPinMap,
+  BsSpeedometer2,
+} from "react-icons/bs";
 import { MdPolicy, MdOutlineAttachEmail } from "react-icons/md";
 
-const Info = ({ name, price, seat }) => {
+const Info = ({ name, price, seat, fuel, speed }) => {
   return (
     <div className={styles.container}>
       <p>{name}</p>
@@ -42,6 +49,21 @@ const Info = ({ name, price, seat }) => {
             <span> Automatic</span>
           </div>
         </div>
+
+        <div>
+          <div>
+            <GiJerrycan />
+            <span> {fuel}</span>
+          </div>
+          <div>
+            <BiLeaf />
+            <span> Eco Drive</span>
+          </div>
+          <div>
+            <BsSpeedometer2 />
+            <span> {speed}</span>
+          </div>
+        </div>
       </div>
       <div className={styles.tag}>
         <span>Speed</span>
@@ -49,14 +71,7 @@ const Info = ({ name, price, seat }) => {
         <span>Elegance</span>
         <span>Safety</span>
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "1.5rem",
-          flexWrap: "wrap",
-        }}
-      >
+      <div className={styles.policy}>
         <div
           style={{
             display: "flex",

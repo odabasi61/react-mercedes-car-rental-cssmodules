@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 40%;
+  width: 70%;
 }
 
 .tag {
@@ -27,6 +27,14 @@
   color: #495057;
   border-radius: 1rem;
 }
+
+.policy {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
 .container button {
   cursor: pointer;
   border: none;
@@ -38,7 +46,7 @@
 
 @media only screen and (max-width: 1400px) {
   .specs {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -49,5 +57,10 @@
 
   .tag {
     gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .policy {
+    justify-content: center;
   }
 }

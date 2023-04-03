@@ -7,9 +7,15 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
+  const handleClose = () => {
+    setNav(!nav);
+  };
+
   return (
     <header className={styles.navbar}>
-      <img src={Logo} alt="drive logo" />
+      <Link to={"/"} style={{ display: "flex", alignItems: "center" }}>
+        <img src={Logo} alt="drive logo" />
+      </Link>
       <nav>
         <ul
           className={
@@ -17,13 +23,19 @@ const Navbar = () => {
           }
         >
           <li>
-            <Link to={"/"}>Home</Link>
+            <Link onClick={handleClose} to={"/"}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to={"learnmore"}>Learn More</Link>
+            <Link onClick={handleClose} to={"learnmore"}>
+              Learn More
+            </Link>
           </li>
           <li>
-            <Link to={"office"}>Our Offices</Link>
+            <Link onClick={handleClose} to={"office"}>
+              Our Offices
+            </Link>
           </li>
           <li>
             <a href="/">Log in</a>

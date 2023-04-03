@@ -12,7 +12,13 @@ const ClaAmg = () => {
           <img src={cla} alt="amg gt 63 s" />
         </div>
         <div className={styles.info}>
-          <Info name="CLA AMG" price="$899" seat="4 Seats" />
+          <Info
+            name="CLA AMG"
+            price="$899"
+            seat="4 Seats"
+            fuel="8.5 lt/100 km"
+            speed="5.1 sec/100km"
+          />
         </div>
       </div>
     </div>

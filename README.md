@@ -1,4 +1,4 @@
-This is a car rental project in which only Mercedes is rented. I used react-router-dom for page transitions. I used swiper library for carousels. React-icons library is used for the various icons. I cloned a workshop from a youtube channel but developed it in details and designed it in my own.
+This is a car rental project in which only Mercedes is rented. I used react-router-dom for page transitions. I used swiper library for carousels. React-icons library is used for the various icons. I cloned a workshop from a youtube channel but developed it in details and designed it on my own.
 
 https://charming-horse-ea4b07.netlify.app/
 

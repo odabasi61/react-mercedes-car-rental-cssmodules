@@ -12,7 +12,13 @@ const Sclass = () => {
           <img src={sclass} alt="amg gt 63 s" />
         </div>
         <div className={styles.info}>
-          <Info name="S 600 Long" price="$1899" seat="4 Seats" />
+          <Info
+            name="S 600 Long"
+            price="$1899"
+            seat="4 Seats"
+            fuel="9 lt/100 km"
+            speed="3.9 sec/100km"
+          />
         </div>
       </div>
     </div>

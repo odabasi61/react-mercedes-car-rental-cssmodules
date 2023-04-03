@@ -12,7 +12,13 @@ const Eqs = () => {
           <img src={eqs} alt="amg gt 63 s" />
         </div>
         <div className={styles.info}>
-          <Info name="EQS Suv" price="$1199" seat="7 Seats" />
+          <Info
+            name="EQS Suv"
+            price="$1199"
+            seat="7 Seats"
+            fuel="4.2 lt/100 km"
+            speed="4.4 sec/100km"
+          />
         </div>
       </div>
     </div>
